@@ -27,4 +27,4 @@ function formatarProduto(nome: string, preco: number): string {
 ```
 ▶️ Executando
 ```
-npm run start:dev src/data.ts
+npm run start:dev src/app.ts
