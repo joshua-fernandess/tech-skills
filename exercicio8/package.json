@@ -1,5 +1,5 @@
 {
-  "name": "exercicio9",
+  "name": "exercicio8",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,16 +9,14 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "@types/axios": "^0.9.36",
-    "@types/express": "^5.0.3",
-    "axios": "^1.11.0",
-    "express": "^5.1.0",
-    "ts-node-dev": "^2.0.0"
-  },
   "devDependencies": {
+    "@types/express": "^5.0.3",
     "@types/node": "^24.3.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.1.0"
   }
 }

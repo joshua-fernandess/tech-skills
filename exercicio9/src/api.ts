@@ -1,18 +1,14 @@
 import axios from 'axios';
 import { ICountry } from './models';
 
-const API_URL = 'https://restcountries.com/v3.1/all';
+const API_URL = "https://restcountries.com/v3.1/all?fields=name,region,capital,population,flags";
 
-export const fetchCountries = async (): Promise<ICountry[]> => {
+export async function fetchCountries(): Promise<ICountry[]> {
   try {
-    const response = await axios.get<ICountry[]>(API_URL);
-    return response.data;
+    const { data } = await axios.get<ICountry[]>(API_URL);
+    return data;
   } catch (error) {
-    if (axios.isAxiosError(error)) {
-      console.error(`Erro ao buscar países: ${error.message}`);
-    } else {
-      console.error('Um erro inesperado ocorreu:', error);
-    }
-    return [];
+    console.error("Erro ao buscar países:", error);
+    throw new Error("Falha ao carregar países.");
   }
-};
+}
