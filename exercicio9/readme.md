@@ -1,4 +1,4 @@
-# Exercício 9: Consumo de API Externa e Manipulação de Dados em uma Aplicação Web
+# Exercício 9 - Consumo de API Externa e Manipulação de Dados em uma Aplicação Web
 Este projeto consiste em uma aplicação Node.js + TypeScript que consome a API REST Countries, retorna uma lista de países e permite pesquisar por nome e filtrar por região.
 
 O objetivo principal é praticar TypeScript, utilizando tipos, interfaces, enums, classes e módulos para garantir código robusto e organizado.

@@ -1,4 +1,4 @@
-# API de Validação de Documentos (CPF, CNPJ, CNH) 🇧🇷
+# Exercício 6 - API utilizando o pacote validation-br
 
 API simples feita com **Express + TypeScript**, utilizando a biblioteca [validation-br](https://www.npmjs.com/package/validation-br) para validar documentos brasileiros.
 

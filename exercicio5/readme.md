@@ -1,4 +1,4 @@
-# API REST Básica com Express e TypeScript 🚀
+# Exercício 5 - Construindo uma API REST Básica com Express e TypeScript
 
 Este projeto é uma API simples criada com **Express** e **TypeScript**, que gerencia usuários em memória (sem banco de dados).  
 
